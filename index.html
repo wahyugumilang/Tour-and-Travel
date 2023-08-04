@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travelling.com</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>TR</span>avel</a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#book">Book</a>
+        <a href="#objective">0bjective</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>Login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="Login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember me</label>
+        <p>Forget Password? <a href="#">Click here</a></p>
+        <p>Don't have and Account? <a href="#">Register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>-Wellcome to Minangkabau-</h3>
+        <p>"Adaik Basandi Syara', Syara' Basandi Kitabullah"</p>
+        <a href="#" class="btn">Explore More</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>B</span>
+        <span>O</span>
+        <span>O</span>
+        <span>K</span>
+        <span class="space"></span>
+        <span>N</span>
+        <span>O</span>
+        <span>W</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/guide.png" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>Where to :</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>How many :</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>Arrivals :</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>Leaving :</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="submit">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="objective" id="objective">
+
+    <h1 class="heading">
+        <span>O</span>
+        <span>B</span>
+        <span>J</span>
+        <span>E</span>
+        <span>C</span>
+        <span>T</span>
+        <span>I</span>
+        <span>V</span>
+        <span>E</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/Logo Kota Padang.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Padang City </h3>
+                <p>
+                    Padang City is the largest city on the west coast of Sumatra Island as well as the capital of West Sumatra Province. 
+                    Padang is the center of education and health in the central part of Sumatra, supported by the presence of a number of 
+                    universities and health facilities. As a city of arts and culture, Padang known for the legends of Malin Kundang and Sitti Nurbaya, 
+                    and every year it organizes various festivals to support the tourism sector.
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> IDR:300.000 <span>330.000</span> </div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Logo Bukittinggi.png" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Bukittinggi </h3>
+                <p>
+                    The city of Bukittinggi is the second largest city in the province of West Sumatra. This city was once the capital city of Indonesia
+                    during the Emergency Government of the Republic of Indonesia. The city of Bukittinggi is one of the largest wholesale trade centers on
+                    the island of Sumatra. Bukittinggi is also known as a tourist city. The most visited tourist spot is Jam Gadang, a clock tower located 
+                    in the heart of the city as well as being a symbol for Bukittinggi.
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> IDR:270.000 <span>295.000</span> </div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Logo Pariaman.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Pariaman </h3>
+                <p>
+                    Geographically, Pariaman City is located on the west coast of Sumatra Island and is directly opposite the Indonesian Ocean. 
+                    The topography of Pariaman City is a stretch of lowland with an altitude of 0-15 meters above sea level and has 4 small islands, 
+                    namely Ujung Island, Tangah Island, Angso Island, and Kasiak Island. Pariaman City is known for its customs that are still 
+                    strongly attached to each of its residents.
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> IDR:350.000 <span>360.000</span> </div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Logo Payakumbuh.png" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Payakumbuh </h3>
+                <p>
+                    The position of Payakumbuh City is in the middle of Fifty Cities Regency. The location of Payakumbuh City very strategic because it’s
+                    a land transportation traffic route between the Province of West Sumatra and Riau Province. Payakumbuh City is the gateway from Pekanbaru 
+                    to cities in West Sumatra Province. Apart from its strategic position, this city also has very beautiful tourist attractions that can spoil the eye.
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> IDR:500.000 <span>510.000</span> </div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Logo kabupaten pesisir selatan.png" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Pesisir Selatan </h3>
+                <p>
+                    Pesisir Selatan Regency is a district in West Sumatra, Indonesia. The capital city of Pesisir Selatan in the district of IV Jurai, to be precise in Painan. 
+                    This small town but full of natural products, is the right shot to be a fun place for recreation. The atmosphere of the beaches and beautiful islands will 
+                    be able to make you amazed and fascinated by its beauty.In this city there are also separate islands but each has its own beauty. These islands, are the main 
+                    shots for tourists who come from various regions.
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> IDR:750.000 <span>770.000</span> </div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Logo Tanah datar.png" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Tanah Datar </h3>
+                <p>
+                    Tanah Datar Regency is one of the regencies in the Province of West Sumatra, Indonesia, with the capital city Batusangkar. Tanah Datar Regency as the place 
+                    of origin of the Minangkabau tribe has a lot of historical places. The tourism industry in Tanah Datar Regency is very potential to be developed. The most famous 
+                    historical tourist spot in this city is the Basa Pagaruyuang Palace. However, there are many other tourist and historical places that are no less good.
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> IDR:180.000 <span>200.000</span> </div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>S</span>
+        <span>E</span>
+        <span>R</span>
+        <span>V</span>
+        <span>I</span>
+        <span>C</span>
+        <span>E</span>
+        <span>S</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>Hotels</h3>
+            <p>
+                We provide various types of hotels with different standards. Ranging from star hotels to 4 star hotels. 
+                And it is located in different areas, according to the purpose of guests.
+            </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>Food and Drinks</h3>
+            <p>
+                You don't have to worry about not getting food and drink, because we have also provided it in the package you have chosen. 
+                And we also provide other food and drinks outside of the package fee.
+            </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Safty Guide</h3>
+            <p>
+                Here we will provide the best service and as much as possible. Because your comfort is number 1 for us. You are satisfied we are happy, 
+                we will also provide services that will make you feel safe and calm while on this trip.
+            </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-car"></i>
+            <h3>Transport</h3>
+            <p>
+                On the other hand, we also provide vehicles in the form of car units, but that is outside the package fee. So you have to
+                spend a little more budget to be able to use this car. We provide a variety of cars, ranging from affordable prices to expensive prices.
+            </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>Adventures</h3>
+            <p>
+                During the trip, we will tell and explain to guests about the place. We are also willing to take guests to places they want to visit if they do not exceed our limits.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>G</span>
+        <span>A</span>
+        <span>L</span>
+        <span>L</span>
+        <span>E</span>
+        <span>R</span>
+        <span>Y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/gallery-1.jpg" alt="">
+            <div class="content">
+                <h3>'Pagang Island'</h3>
+                <p>
+                    This tourist spot has become a topic of discussion on social media. 
+                    Its beauty it self cannot be doubted. You should not miss this Pagang Island if you visit West Sumatra.
+                </p>
+                <a href=" https://www.wisatapulausumaterabarat.com/419868107" target="_blank" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/gallery-2.png" alt="">
+            <div class="content">
+                <h3>'Jam Gadang'</h3>
+                <p>
+                    Jam Gadang is the name for a clock tower located in downtown Bukittinggi, West Sumatra, Indonesia. 
+                    This clock tower has a clock with a large size on four sides so it is called Jam Gadang, 
+                    a Minangkabau name meaning "big clock".
+                </p>
+                <a href=" http://www.bukittinggikota.go.id/wisata/jam-gadang" target="_blank" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/gallery-3.jpg" alt="">
+            <div class="content">
+                <h3>'West Sumatra Grand Mosque'</h3>
+                <p>
+                    Grand Mosque of West Sumatra (Indonesian Masjid Raya Sumatera Barat) is a mosque in Padang, West Sumatra, Indonesia. 
+                    It is the largest mosque in West Sumatra, and the second largest mosque in Sumatra. It is located in Padang Utara Subdistrict, 
+                    Padang, West Sumatra.
+                </p>
+                <a href=" https://en.wikipedia.org/wiki/Grand_Mosque_of_West_Sumatra" target="_blank" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/gallery-4.jpg" alt="">
+            <div class="content">
+                <h3>'Kelok 9'</h3>
+                <p>
+                    Kelok 9 street was built during the Dutch East Indies government. This road winds through the Bukit Barisan which extends from 
+                    north to south of Sumatra Island. The width of the road which is only 5 meters and the sharp bends often make it difficult for 
+                    vehicles with large loads to pass because they are not strong uphill.
+                </p>
+                <a href=" https://id.wikipedia.org/wiki/Kelok_9" target="_blank" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/gallery-5.jpg" alt="">
+            <div class="content">
+                <h3>'Harau 50 Kota'</h3>
+                <p>
+                    The Harau Valley is a canyon near Payakumbuh City in Limapuluh Koto Regency, West Sumatra province. The Harau Valley is flanked by 
+                    two steep rocky hills with a height of up to 150 meters in the form of colorful, steep sandstone, with a height of 100 to 500 meters.
+                </p>
+                <a href=" https://id.wikipedia.org/wiki/Harau,_Lima_Puluh_Kota" target="_blank" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/gallery-6.jpg" alt="">
+            <div class="content">
+                <h3>'Tarusan Kamang Mudik'</h3>
+                <p>
+                    Lake Tarusan Kamang is very magical, because one day it can be filled with water. At other times the lake can recede and become a large green field, 
+                    like a meadow. Some residents use this place to graze livestock if the lake turns into pasture.
+                </p>
+                <a href=" https://travel.detik.com/domestic-destination/d-4920414/kenapa-danau-tarusan-kamang-bisa-berubah-jadi-padang-rumput" target="_blank" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/gallery-7.png" alt="">
+            <div class="content">
+                <h3>'Pagaruyung Base Place'</h3>
+                <p>
+                    Istano Basa, better known as Pagaruyung Palace is a museum in the form of a replica of the Pagaruyung Royal palace located in Nagari Pagaruyung, 
+                    Tanjung Emas District, Tanah Datar Regency, West Sumatra. This palace is approximately 5 kilometers from Batusangkar.
+                </p>
+                <a href=" https://www.suara.com/lifestyle/2017/08/26/122817/istana-baso-pagaruyung-jejak-sejarah-minangkabau-yang-mempesona" target="_blank" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/gallery-8.jpg" alt="">
+            <div class="content">
+                <h3>'Tea Garden'</h3>
+                <p>
+                    One of the attractions that is the pride of the Solok people and is always crowded with tourists on holidays. This tea garden is located in Nagari 
+                    Batang Barus in Gunung Talang District, Solok Regency. Actually. However, because it has the charm of natural scenery and a beautiful expanse of tea gardens, 
+                    many residents come here for visiting.
+                </p>
+                <a href=" https://travel.detik.com/cerita-perjalanan/d-5395432/bukan-lembang-ini-kebun-teh-cantik-di-solok" target="_blank" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/gallery-9.jpg" alt="">
+            <div class="content">
+                <h3>'Padang Mangateh Farm'</h3>
+                <p>
+                    The people of West Sumatra call it Padang Mangateh. This farm is filled with cows that are released in a large area of fields. Because of its beauty, this livestock 
+                    area is used as a tourist spot by local residents.
+                </p>
+                <a href=" https://id.wikipedia.org/wiki/Padang_Mangateh" target="_blank" class="btn">See More</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="team" id="team">
+
+    <h1 class="heading">
+        <span>T</span>
+        <span>E</span>
+        <span>A</span>
+        <span>M</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/tim1.jpeg" alt="">
+                    <h3>Gumilang</h3>
+                    <p>
+                        This young man born in Padang has just started his travel business since 2021, 
+                        still focusing on only a few areas and has not covered the entire West Sumatra region.
+                        He loves nature and often goes with his friends to explore natural attractions in the Minangkabau area.
+                        He comes from <b>West Pasaman Regency</b>, West Sumatra Province.
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/tim2.jpeg" alt="">
+                    <h3>Fernand S.</h3>
+                    <p>
+                        The young man who comes from the <b>Lubuk Basung</b>, this religion is also very fond of nature. 
+                        Often goes to explore various areas in West Sumatra. So, he decided to join this business. 
+                        He is a friendly and humorous person, and is guaranteed to be comfortable when he is guided by him.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/tim3.jpg" alt="">
+                    <h3>Aldhy Darza</h3>
+                    <p>
+                        Coming from the <b>Payakumbuh</b> which is full of natural beauty, this young man has loved exploring since childhood. 
+                        He is a creative and intelligent person so that people can easily like him. He has made various trips with his friends 
+                        to various areas in West Sumatra. Making it easier for him to be your guide.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/tim4.jpg" alt="">
+                    <h3>Raihan P.</h3>
+                    <p>
+                        Born into a rich family, this young man did not make the intention and desire to export nature. He started exploring with his friends 
+                        when he was in junior high school until now it has become a part of his life. Decided to join here and be a guide for the tourists. 
+                        He comes from <b>Padang city</b>, West Sumatra.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>C</span>
+        <span>O</span>
+        <span>N</span>
+        <span>T</span>
+        <span>A</span>
+        <span>C</span>
+        <span>T</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/globe.png" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+</section>
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>About Us</h3>
+            <p>
+                We come from different areas but still one unit, namely Minangkabau. We met at a high school in Bukittinggi. 
+                Because we have something in common, namely, love and export of nature, we decided to start a small business 
+                as a form of our dedication to nature. We hope that this business will run smoothly and provide benefits for many people. 
+                We also thank those who have believed in our services and hope you are satisfied with our services.
+                <p>Greetings from us...</p>
+
+            <h6>
+                #Minangkabau <br/>
+                #SumateraBarat <br/>
+                #TravellingMinang <br/>
+                #ExploreMinang <br/>
+            </h6>
+                
+            </p>
+        </div>
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#">Home</a>
+            <a href="#">Book</a>
+            <a href="#">Packages</a>
+            <a href="#">Services</a>
+            <a href="#">Gallery</a>
+            <a href="#">Review</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="box">
+            <h3>Social Media</h3>
+            <<a href="https://line.me/ti/p/Tj7VLvLI3e" target="_blank">Line</a>
+            <a href="https://www.instagram.com/gumiilang_/"target="_blank">Instagram</a>
+            <a href=" https://twitter.com/Gumiilang_?t=P01KOAojdelsLRcz17SAvw&s=08" target="_blank">Twitter</a>
+            <a href="#">WhatsApp +6281281973198
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> Wahyu Gumilang JP </span> | 2021 </h1>
+
+</section>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
